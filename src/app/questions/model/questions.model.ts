@@ -5,6 +5,7 @@ export interface QuestionsModel {
     answer_2: Answer;
     answer_3: Answer;
     answer_4: Answer;
+    alreadyPlay: boolean;
 }
 
 export interface Answer {

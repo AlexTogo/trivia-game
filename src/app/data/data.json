@@ -17,7 +17,8 @@
         "answer_4": {
             "text": "v1",
             "isCorrect": false
-        }
+        },
+        "alreadyPlay": false
     },
     {
         "category": "HOME",
@@ -37,7 +38,8 @@
         "answer_4": {
             "text": "v1",
             "isCorrect": false
-        }
+        },
+        "alreadyPlay": false
     },
     {
         "category": "CHURCH",
@@ -57,7 +59,8 @@
         "answer_4": {
             "text": "v1",
             "isCorrect": false
-        }
+        },
+        "alreadyPlay": false
     },
     {
         "category": "CHURCH",
@@ -77,6 +80,7 @@
         "answer_4": {
             "text": "v1",
             "isCorrect": false
-        }
+        },
+        "alreadyPlay": false
     }
 ]
