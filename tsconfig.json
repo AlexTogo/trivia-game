@@ -13,7 +13,6 @@
     "target": "es2015",
     // added
     "resolveJsonModule": true,
-    // "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     // added
 

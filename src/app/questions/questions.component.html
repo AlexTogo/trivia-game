@@ -1,1 +1,7 @@
-<pre>{{ data | json }}</pre>
+<div class="card" *ngFor="let cart of data">
+    <!-- <img src="img_avatar.png" alt="Avatar" style="width:100%" /> -->
+    <div class="container">
+        <h4><b>Category:</b> {{ cart.category }}</h4>
+        <p>{{ cart.question }}</p>
+    </div>
+</div>

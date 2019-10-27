@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import data from '../data/data.json';
+import { QuestionsModel } from './model/questions.model.js';
 
 @Component({
     selector: 'app-questions',
@@ -7,9 +8,11 @@ import data from '../data/data.json';
     styleUrls: ['./questions.component.scss']
 })
 export class QuestionsComponent implements OnInit {
-    public data: any = data;
+    public data: QuestionsModel[];
 
     constructor() {}
 
-    public ngOnInit(): void {}
+    public ngOnInit(): void {
+        this.data = data;
+    }
 }
