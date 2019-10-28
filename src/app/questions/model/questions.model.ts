@@ -1,6 +1,7 @@
 export interface QuestionsModel {
     category: string;
     question: string;
+    questionRus: string;
     answer_1: Answer;
     answer_2: Answer;
     answer_3: Answer;
