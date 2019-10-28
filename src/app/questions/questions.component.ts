@@ -8,6 +8,7 @@ import { QuestionsModel } from './model/questions.model.js';
     styleUrls: ['./questions.component.scss']
 })
 export class QuestionsComponent implements OnInit {
+    public errorBG: boolean = false;
     public data: QuestionsModel[];
 
     constructor() {}

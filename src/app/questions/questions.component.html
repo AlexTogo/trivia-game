@@ -1,15 +1,15 @@
 <div class="context">
-
-    <div class="card" >
-        <div class="container">
-            <h4><b>Category:</b> {{ data[0].category }}</h4>
+    <div class="card title">
+        <div class="container" fxLayout="row" fxLayoutAlign="center center">
+            <h4>{{ data[0].category }}:&nbsp;</h4>
             <p>{{ data[0].question }}</p>
         </div>
     </div>
-
 </div>
 
-<div class="area">
+<button click="errorBG = !errorBG">{{errorBG}}</button>
+
+<div class="area" [ngClass]="{'error': errorBG, 'color': !errorBG}">
     <ul class="circles">
         <li></li>
         <li></li>
