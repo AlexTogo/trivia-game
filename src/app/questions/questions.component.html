@@ -1,15 +1,19 @@
-<div class="context">
-    <div class="card title">
-        <div class="container" fxLayout="row" fxLayoutAlign="center center">
-            <h4>{{ data[0].category }}:&nbsp;</h4>
-            <p>{{ data[0].question }}</p>
+<!-- <button (click)="errorBG = !errorBG">CLICK</button> -->
+
+<div class="context" fxLayout="row" fxLayoutAlign="center stretch">
+    <div class="title" fxLayout="row" fxLayoutAlign="center center">
+        <div class="container">
+            <span>{{ data[0].category }}:&nbsp;</span>
+            <span>{{ data[0].question }}</span>
         </div>
+    </div>
+    
+    <div class="button">
+        <a><span>Upload Now</span></a>
     </div>
 </div>
 
-<button click="errorBG = !errorBG">{{errorBG}}</button>
-
-<div class="area" [ngClass]="{'error': errorBG, 'color': !errorBG}">
+<div class="background" [ngClass]="{ error: errorBG, color: !errorBG }">
     <ul class="circles">
         <li></li>
         <li></li>
