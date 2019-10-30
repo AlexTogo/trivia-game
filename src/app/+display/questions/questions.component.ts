@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import data from '../data/data.json';
-import { QuestionsModel } from './model/questions.model.js';
+import data from '../../data/data.json';
+import { QuestionsModel } from './model/questions.model';
 
 @Component({
     selector: 'app-questions',

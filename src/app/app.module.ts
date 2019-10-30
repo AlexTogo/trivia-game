@@ -4,12 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuestionsComponent } from './questions/questions.component';
 import { MatButtonModule } from '@angular/material';
+import { DisplayModule } from './+display/display.module';
 
 @NgModule({
-    declarations: [AppComponent, QuestionsComponent],
-    imports: [BrowserModule, AppRoutingModule, FlexLayoutModule, BrowserAnimationsModule, MatButtonModule],
+    declarations: [AppComponent],
+    imports: [BrowserModule, AppRoutingModule, FlexLayoutModule, BrowserAnimationsModule, MatButtonModule, DisplayModule],
     providers: [],
     bootstrap: [AppComponent]
 })
