@@ -1,6 +1,7 @@
 [
     {
         "category": "HOME",
+        "point": 1,
         "question": "example of question1example of question1example of question1example of question1example of question1example of question1",
         "question-rus": "example of question1",
         "answer_1": {
@@ -23,6 +24,7 @@
     },
     {
         "category": "HOME",
+        "point": 2,
         "question": "example of question2",
         "question-rus": "example of question2",
         "answer_1": {
@@ -45,6 +47,7 @@
     },
     {
         "category": "CHURCH",
+        "point": 3,
         "question": "example of question3",
         "question-rus": "example of question3",
         "answer_1": {
@@ -67,6 +70,7 @@
     },
     {
         "category": "CHURCH",
+        "point": 4,
         "question": "example of question4",
         "question-rus": "example of question4",
         "answer_1": {
