@@ -11,8 +11,7 @@ export class StartingPageComponent implements OnInit {
 
     public ngOnInit(): void {}
 
-    public redirectToPresent(): void {
-        console.log('w1');
-        this.router.navigate(['/display']);
+    public redirectTo(url: string): void {
+        this.router.navigate([url]);
     }
 }

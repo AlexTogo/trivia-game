@@ -9,6 +9,10 @@ const routes: Routes = [
     {
         path: 'display',
         loadChildren: () => import('./+display/display.module').then((mod) => mod.DisplayModule)
+    },
+    {
+        path: 'admin',
+        loadChildren: () => import('./+dashboard/dashboard.module').then((mod) => mod.DashboardModule)
     }
 ];
 
