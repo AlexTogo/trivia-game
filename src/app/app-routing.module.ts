@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
     {
-        path: 'display',
+        path: '',
+        pathMatch: 'full',
         loadChildren: () => import('./+display/display.module').then((mod) => mod.DisplayModule)
     }
 ];
