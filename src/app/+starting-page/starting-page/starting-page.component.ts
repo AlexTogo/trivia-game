@@ -2,16 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-    selector: 'app-dashboard',
-    templateUrl: './dashboard.component.html',
-    styleUrls: ['./dashboard.component.scss']
+    selector: 'app-starting-page',
+    templateUrl: './starting-page.component.html',
+    styleUrls: ['./starting-page.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class StartingPageComponent implements OnInit {
     constructor(private readonly router: Router) {}
 
     public ngOnInit(): void {}
 
     public redirectToPresent(): void {
+        console.log('w1');
         this.router.navigate(['/display']);
     }
 }

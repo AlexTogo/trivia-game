@@ -4,7 +4,10 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
     {
         path: '',
-        pathMatch: 'full',
+        loadChildren: () => import('./+starting-page/starting-page.module').then((m) => m.StartingPageModule)
+    },
+    {
+        path: 'display',
         loadChildren: () => import('./+display/display.module').then((mod) => mod.DisplayModule)
     }
 ];
