@@ -27,7 +27,7 @@
     </ul>
 </div> -->
 
-<div class="root-cont color">
+<!-- <div class="root-cont color">
     <div class="card-container">
         <div class="card">
             <div class="front">
@@ -60,4 +60,9 @@
             <div class="back">Code</div>
         </div>
     </div>
-</div>
+</div> -->
+
+<!-- <button (click)="newDoc()">New Document</button>
+<span (click)="loadDoc(docId)" *ngFor="let docId of documents | async">{{ docId }}</span> -->
+
+<textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea>
