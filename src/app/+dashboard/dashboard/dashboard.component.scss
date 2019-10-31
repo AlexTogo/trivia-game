@@ -6,3 +6,10 @@
 .container {
     height: 100%;
 }
+
+.button-wrapper {
+    max-height: 7rem;
+    button {
+        margin: 0.4rem;
+    }
+}

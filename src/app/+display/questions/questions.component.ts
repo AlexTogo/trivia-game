@@ -23,7 +23,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
     constructor(private readonly documentService: SocketIOService) {}
 
     public ngOnInit(): void {
-        // this.data = data;
+        this.data = data;
 
         this._docSub = this.documentService.currentDocument.pipe(startWith({ id: '1', doc: '1' })).subscribe((document) => {
             this.document = document;

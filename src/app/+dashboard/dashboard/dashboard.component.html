@@ -1,4 +1,10 @@
 <div class="container" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="1rem">
-    <h1>Dashboard</h1>
-    <textarea [ngModel]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea>
+    <!-- <textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea> -->
+
+    <div class="button-wrapper" fxLayout="column wrap" fxLayoutAlign="center stretch">
+        <button mat-raised-button (click)="editDoc('w1')">Answer 1</button>
+        <button mat-raised-button (click)="editDoc('w2')">Answer 2</button>
+        <button mat-raised-button (click)="editDoc('w3')">Answer 3</button>
+        <button mat-raised-button (click)="editDoc('w4')">Answer 4</button>
+    </div>
 </div>

@@ -1,17 +1,3 @@
-<!-- <button (click)="errorBG = !errorBG">CLICK</button> -->
-<!-- <div class="button">
-        <a><span>Upload Now</span></a>
-    </div> -->
-
-<!-- <div class="context" fxLayout="row" fxLayoutAlign="center stretch">
-    <div class="title" fxLayout="row" fxLayoutAlign="center center">
-        <div class="container">
-            <span>{{ data[0].category }}:&nbsp;</span>
-            <span>{{ data[0].question }}</span>
-        </div>
-    </div>
-</div> -->
-
 <!-- <div class="background" [ngClass]="{ error: errorBG, color: !errorBG }">
     <ul class="circles">
         <li></li>
@@ -27,42 +13,48 @@
     </ul>
 </div> -->
 
-<!-- <div class="root-cont color">
-    <div class="card-container">
-        <div class="card">
-            <div class="front">
-                <span class="fa fa-user"></span>
-            </div>
-            <div class="back">User</div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="card">
-            <div class="front">
-                <span class="fa fa-cogs"></span>
-            </div>
-            <div class="back">Settings</div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="card">
-            <div class="front">
-                <span class="fa fa-code"></span>
-            </div>
-            <div class="back">Code</div>
-        </div>
-    </div>
-    <div class="card-container">
-        <div class="card">
-            <div class="front">
-                <span class="fa fa-code"></span>
-            </div>
-            <div class="back">Code</div>
-        </div>
-    </div>
-</div> -->
 
-<div class="container color" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="1rem">
-    <h1>Display</h1>
-    <textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea>
+<div class="color" fxLayout="column" fxLayoutAlign="center center">
+    
+    <div class="plate">
+        <div class="context" fxLayout="row" fxLayoutAlign="center stretch">
+            <div class="title" fxLayout="row" fxLayoutAlign="center center">
+                <div class="container">
+                    <span>{{ data[0].category }}:&nbsp;</span>
+                    <span>{{ data[0].question }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont2" fxLayout="row wrap" fxLayoutAlign="center stretch">
+        <div class="card-container">
+            <div class="card">
+                <div class="front">{{document.doc}}</div>
+                <div class="back">User</div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="front">Settings</div>
+                <div class="back">Settings</div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="front">Code</div>
+                <div class="back">Code</div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div class="front">Code</div>
+                <div class="back">Code</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container color" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="1rem"> -->
+    <!-- <textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea> -->
+    <!-- </div> -->
 </div>
