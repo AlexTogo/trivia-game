@@ -26,7 +26,7 @@ $error: red;
     font-size: 50px;
 }
 
-.container {
+.container1 {
     background-color: #ffffff;
     position: relative;
     border-radius: 8px;
@@ -299,4 +299,15 @@ $primary: #3f82d7;
 
 .back {
     transform: rotateY(180deg);
+}
+
+
+
+/* 
+==============================
+    ADDED SMALL ADJUSTMENTS
+==============================
+*/
+.container {
+    height: 100%;
 }

@@ -8,8 +8,8 @@ import { SocketModel } from '../models';
 })
 export class SocketIOService {
     public currentDocument = this.socket.fromEvent<SocketModel>('document');
-    public documents = this.socket.fromEvent<string[]>('documents');
-    public connectionsID: number = 5;
+    // public documents = this.socket.fromEvent<string[]>('documents');
+    // public connectionsID: number = 5;
 
     constructor(private socket: Socket) {}
 
@@ -34,4 +34,5 @@ export class SocketIOService {
     //     }
     //     return text;
     // }
+    
 }

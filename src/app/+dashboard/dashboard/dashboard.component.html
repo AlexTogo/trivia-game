@@ -1,3 +1,4 @@
 <div class="container" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="1rem">
-    <h1><p>dashboard works!</p></h1>
+    <h1>Dashboard</h1>
+    <textarea [ngModel]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea>
 </div>

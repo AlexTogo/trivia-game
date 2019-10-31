@@ -62,7 +62,7 @@
     </div>
 </div> -->
 
-<!-- <button (click)="newDoc()">New Document</button>
-<span (click)="loadDoc(docId)" *ngFor="let docId of documents | async">{{ docId }}</span> -->
-
-<textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea>
+<div class="container color" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="1rem">
+    <h1>Display</h1>
+    <textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea>
+</div>
