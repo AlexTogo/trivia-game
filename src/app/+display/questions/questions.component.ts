@@ -11,30 +11,34 @@ import { SocketIOService, SocketModel } from '../../shared';
     styleUrls: ['./questions.component.scss']
 })
 export class QuestionsComponent implements OnInit, OnDestroy {
-    public document: SocketModel;
+    public color: string = 'error';
 
+    // public document: SocketModel;
     public errorBG: boolean = false;
+    public buttonBG: boolean = false;
+
     public data: QuestionsModel[];
+    public currentQuestionNum: number = 0;
 
     // public documents: Observable<string[]>;
-    private _docSub: Subscription;
+    // private _docSub: Subscription;
     // private currentDoc: string;
 
-    constructor(private readonly documentService: SocketIOService) {}
+    constructor() // private readonly documentService: SocketIOService
+    {}
 
     public ngOnInit(): void {
         this.data = data;
 
-        this._docSub = this.documentService.currentDocument.pipe(startWith({ id: '1', doc: '1' })).subscribe((document) => {
-            this.document = document;
-            console.log(document);
-        });
+        // this._docSub = this.documentService.currentDocument.pipe(startWith({ id: '1', doc: '1' })).subscribe((document) => {
+        // this.document = document;
+        // });
 
         // List
         // this.documents = this.documentService.documents;
         // this._docSub = this.documentService.currentDocument.subscribe((doc) => (this.currentDoc = doc.id));
-        this.documentService.getDocument('1');
-
+        // this.documentService.getDocument('1');
+        // this.documentService.getQuestions('1');
     }
 
     public ngOnDestroy(): void {
@@ -46,9 +50,9 @@ export class QuestionsComponent implements OnInit, OnDestroy {
     //     this.message = '';
     // }
 
-    public editDoc(docIn: string): void {
-        this.documentService.editDocument({'id': '1', 'doc': docIn});
-    }
+    // public editDoc(docIn: string): void {
+    //     this.documentService.editDocument({ id: '1', doc: docIn });
+    // }
 
     // LIST
     // public loadDoc(id: string) {
@@ -58,4 +62,20 @@ export class QuestionsComponent implements OnInit, OnDestroy {
     // public newDoc() {
     //     this.documentService.newDocument();
     // }
+
+    public nexQuestions(): void {
+        if ((this.currentQuestionNum === 0 || this.currentQuestionNum > 0) && (this.currentQuestionNum + 1) < this.data.length) {
+            this.currentQuestionNum++;
+        }
+    }
+
+    public previousQuestions(): void {
+        if (this.currentQuestionNum > 0 && (this.currentQuestionNum + 1) < this.data.length) {
+            this.currentQuestionNum--;
+        }
+    }
+
+    public setQuestions(input: number): void {
+        this.currentQuestionNum = input;
+    }
 }

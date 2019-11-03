@@ -9,11 +9,13 @@ import { SocketModel, SocketIOService } from '../../shared';
 export class DashboardComponent implements OnInit {
     public document: SocketModel;
 
-    constructor(private readonly documentService: SocketIOService) {}
+    constructor(
+        // private readonly documentService: SocketIOService
+    ) {}
 
     public ngOnInit(): void {}
 
-    public editDoc(docIn: string): void {
-        this.documentService.editDocument({ id: '1', doc: docIn });
-    }
+    // public editDoc(docIn: string): void {
+        // this.documentService.editDocument({ id: '1', doc: docIn });
+    // }
 }

@@ -17,6 +17,10 @@ export class SocketIOService {
         this.socket.emit('getDoc', id);
     }
 
+    public getQuestions (id: string) {
+        this.socket.emit('getQuestions', id);
+    }
+
     // public newDocument() {
     //     this.socket.emit('addDoc', { id: this.connectionsID, doc: '' });
     // }

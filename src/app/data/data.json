@@ -1,93 +1,829 @@
 [
     {
-        "category": "HOME",
+        "category": "TEST",
+        "point": 0,
+        "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
+        "questionRus": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been",
+        "answer_1": {
+            "text": "but also the leap",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "many variations of passages",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "it over 2000 years old",
+            "isCorrect": true
+        },
+        "answer_4": {
+            "text": "It has survived not only five",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 0,
+        "question": "Which weapon God intends us to use against negative thoughts?",
+        "questionRus": "Какое оружие Бог желает, чтобы мы использовали против негативных мыслей?",
+        "answer_1": {
+            "text": "Frying pan",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Cowboy hat",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Helmet of Hope (Salvation)",
+            "isCorrect": true
+        },
+        "answer_4": {
+            "text": "Sword of the spirit",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
         "point": 1,
-        "question": "example of question1example of question1example of question1example of question1example of question1example of question1",
-        "question-rus": "example of question1",
+        "question": "What were the name of the Bible person that killed his own brother?",
+        "questionRus": "Как звали человека из Библии, который убил собственного брата?",
         "answer_1": {
-            "text": "v1",
-            "isCorrect": false
+            "text": "Cain",
+            "isCorrect": true
         },
         "answer_2": {
-            "text": "v1",
+            "text": "Aaron",
             "isCorrect": false
         },
         "answer_3": {
-            "text": "v1",
+            "text": "John",
             "isCorrect": false
         },
         "answer_4": {
-            "text": "v1",
+            "text": "Nebuchadnezzar",
             "isCorrect": false
         },
         "alreadyPlay": false
     },
     {
-        "category": "HOME",
+        "category": "BIBLE",
+        "point": 0,
+        "question": "How many days was Moses Ark sailing?",
+        "questionRus": "Сколько дней плыл ковчег Моисея?",
+        "answer_1": {
+            "text": "0 - (это был ковчег Ноя, а не Моисея)",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "40 days",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "3 days",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "1 week",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "How many days did it take for Jesus to raise from the dead?",
+        "questionRus": "Сколько дней понадобилось Иисусу, чтобы воскреснуть из мертвых?",
+        "answer_1": {
+            "text": "3 days",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "40 days",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "2 days",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "1 week",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 0,
+        "question": "How many days was Moses Ark sailing?",
+        "questionRus": "Сколько дней плыл ковчег Моисея?",
+        "answer_1": {
+            "text": "0 - (это был ковчег Ноя, а не Моисея)",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "40 days",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "3 days",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "1 week",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "How many commandments are there?",
+        "questionRus": "Сколько существует заповедей?",
+        "answer_1": {
+            "text": "2",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "0",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "10",
+            "isCorrect": true
+        },
+        "answer_4": {
+            "text": "15",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "What was the name of the Angel that came to Mary?",
+        "questionRus": "Как звали ангела, который пришёл к Марии?",
+        "answer_1": {
+            "text": "Gabriel",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Michael",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Dustin",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Lucifer",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "How many days did God take to create the earth and its creatures?",
+        "questionRus": "За сколько дней Господь сотворил землю и все живое?",
+        "answer_1": {
+            "text": "6 days (He took 6 days and rested on the 7th",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "3 days",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "10 days",
+            "isCorrect": true
+        },
+        "answer_4": {
+            "text": "15 days",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "How many faithful apostles were at the time of Jesus?",
+        "questionRus": "Сколько верных апостолов было во времена Иисуса?",
+        "answer_1": {
+            "text": "12",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "13",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "0",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Не сосчитать",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "Who was the last Apostle?",
+        "questionRus": "Кто был последним из апостолов?",
+        "answer_1": {
+            "text": "John",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "John the Baptizer",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Mark",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Luke",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 0,
+        "question": "Who betrayed Jesus?",
+        "questionRus": "Кто предал Иисуса?",
+        "answer_1": {
+            "text": "Juda",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "John the Baptizer",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Mark",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Luke",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "Who wrote most of the Proverbs?",
+        "questionRus": "Кто написал большинство Притч?",
+        "answer_1": {
+            "text": "Jesus",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Solomon",
+            "isCorrect": true
+        },
+        "answer_3": {
+            "text": "Saul",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Moses",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "Who was biological brother of Jesus?",
+        "questionRus": "Кто был биологический брат Иисуса?",
+        "answer_1": {
+            "text": "Joseph",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "John",
+            "isCorrect": true
+        },
+        "answer_3": {
+            "text": "Juda",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Cain",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "How did God first talk to Moses?",
+        "questionRus": "Какой был первый способ для общения Бога и Моисея? ",
+        "answer_1": {
+            "text": "Through a burning bush",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Face to face",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Through the Donkey",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "He never talked to Moses",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "Where is an Ark of real size is located?",
+        "questionRus": "Где находятся копия ковчега в настоящую величину?",
+        "answer_1": {
+            "text": "Kentucky",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "North Carolina",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "New Jersey",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Ararat Mountains",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "How many animals did Moses took into the Ark?",
+        "questionRus": "Сколько животных Моисей взял в ковчег?",
+        "answer_1": {
+            "text": "Every animal by pair",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Nobody knows",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "0 (that was Noah)",
+            "isCorrect": true
+        },
+        "answer_4": {
+            "text": "100",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "Who wrote the first five books of the Old Testament?",
+        "questionRus": "Кто написал первые 5 книг Старого Завета?",
+        "answer_1": {
+            "text": "Joseph",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Moses",
+            "isCorrect": true
+        },
+        "answer_3": {
+            "text": "Abraham",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Adam",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "BIBLE",
+        "point": 1,
+        "question": "What two men in the Bible never died?",
+        "questionRus": "Какие два первосвященника из Библии никогда не умирали физической смертью?",
+        "answer_1": {
+            "text": "Jesus and Lazarus",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Enoch and Elijah",
+            "isCorrect": true
+        },
+        "answer_3": {
+            "text": "Paul and Noah",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Cain and Abel",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "VIDEO GAMES",
+        "point": 0,
+        "question": "What was Mario’s First Game?",
+        "questionRus": "Какая была первая игра про Марио?",
+        "answer_1": {
+            "text": "Donkey Kong (1981)",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Super Mario",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Mario Kart",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Mario and Sonic at Olympic games",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "VIDEO GAMES",
+        "point": 1,
+        "question": "Is the Cake a lie?",
+        "questionRus": "Является ли Кейк (Cake) обманом?",
+        "answer_1": {
+            "text": "Yes",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "No",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "NOBODY KNOWS",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "hmmm...",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "VIDEO GAMES",
+        "point": 1,
+        "question": "Who is the founder of Nintendo?",
+        "questionRus": "Кто является основателем Нинтендо?",
+        "answer_1": {
+            "text": "Bill Gates",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Fusajiro Yamauchi",
+            "isCorrect": true
+        },
+        "answer_3": {
+            "text": "Steve Jobes",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Hiroki Okuno",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "VIDEO GAMES",
+        "point": 1,
+        "question": "What was the first Arcade Machine?",
+        "questionRus": "Какая была первая Аркадная машина?",
+        "answer_1": {
+            "text": "Computer Space",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Mario Space",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Racket Space",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Apple Space",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "VIDEO GAMES",
+        "point": 1,
+        "question": "What was the first 3D game?",
+        "questionRus": "Первая 3Д игра?",
+        "answer_1": {
+            "text": "Mario 3D",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Drift Hunters 3D",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Cars 2",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Wolfenstein 3D",
+            "isCorrect": true
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "VIDEO GAMES",
+        "point": 1,
+        "question": "What year was Nintendo founded?",
+        "questionRus": "В каком году Нинтендо был основан?",
+        "answer_1": {
+            "text": "1889",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "1989",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "1990",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "1995",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "MOVIES",
+        "point": 0,
+        "question": "Who plays as the terminator?",
+        "questionRus": "Кто играет в роли Терминатора?",
+        "answer_1": {
+            "text": "Jacky Chen",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Arnold Schwarzenegger",
+            "isCorrect": true
+        },
+        "answer_3": {
+            "text": "John Bever",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "David Frederiksen",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "MOVIES",
+        "point": 1,
+        "question": "Who lives in a pineapple under the sea?",
+        "questionRus": "Кто живёт в ананасе на дне моря?",
+        "answer_1": {
+            "text": "crab",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Dog",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "SPONGE BOB SQUARE PANTS",
+            "isCorrect": true
+        },
+        "answer_4": {
+            "text": "Octopus",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "MOVIES",
+        "point": 1,
+        "question": "Who plays as Neo and John Wick?",
+        "questionRus": "Кто играет в роли Нео и Джона Вика?",
+        "answer_1": {
+            "text": "Brad Pitt",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Morgan Freeman",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Nathan Battaglia",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Keanu Reeves",
+            "isCorrect": true
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "WORLD",
+        "point": 1,
+        "question": "What WWE wrestler became an actor?",
+        "questionRus": "Какой рестлер стал актёром?",
+        "answer_1": {
+            "text": "Brock Lesnar",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Arnold Schwarzenegger",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "John Bever",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Dwayne “The Rock” Johnson",
+            "isCorrect": true
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "WORLD",
+        "point": 1,
+        "question": "What is the most Read, Bought and Printed Book in the world?",
+        "questionRus": "Какая самая читаемая, раскупаемая и печатаемая книга в мире?",
+        "answer_1": {
+            "text": "The Bible",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Harry Potter",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "War and Peace by Lev Tolstoy",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Gifted Hands by Greg Lewis",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "WISDOM",
         "point": 2,
-        "question": "example of question2",
-        "question-rus": "example of question2",
+        "question": "If you found out that your good friend spread the bad rumors about you, what should you do?",
+        "questionRus": "Если вы узнали что ваш хороший друг распространяет сплетни про вас, как вы поступите?",
         "answer_1": {
-            "text": "v1",
+            "text": "Bit him/her up",
             "isCorrect": false
         },
         "answer_2": {
-            "text": "v1",
+            "text": "Start spreading worse rumors about him/her",
             "isCorrect": false
         },
         "answer_3": {
-            "text": "v1",
-            "isCorrect": false
+            "text": "Have an open talk with him/her, to find out what is going on",
+            "isCorrect": true
         },
         "answer_4": {
-            "text": "v1",
+            "text": "Ignore it",
             "isCorrect": false
         },
         "alreadyPlay": false
     },
     {
-        "category": "CHURCH",
-        "point": 3,
-        "question": "example of question3",
-        "question-rus": "example of question3",
+        "category": "WISDOM",
+        "point": 2,
+        "question": "What you should do when you lose?",
+        "questionRus": "Что делать, когда вы проигрываете?",
         "answer_1": {
-            "text": "v1",
+            "text": "Rage",
             "isCorrect": false
         },
         "answer_2": {
-            "text": "v1",
+            "text": "Hold grudges",
             "isCorrect": false
         },
         "answer_3": {
-            "text": "v1",
+            "text": "Throw staff & break things",
             "isCorrect": false
         },
         "answer_4": {
-            "text": "v1",
+            "text": "Show good sportsmanship and learn from it",
+            "isCorrect": true
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "WISDOM",
+        "point": 2,
+        "question": "What do you do when you see a kid being bullied?",
+        "questionRus": "Что вы делаете, если видите, что над кем-то издеваются?",
+        "answer_1": {
+            "text": "Find someone to help or break it up",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Kids do not get bullied",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "Join in on the bulling",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "Ignore it",
             "isCorrect": false
         },
         "alreadyPlay": false
     },
     {
-        "category": "CHURCH",
-        "point": 4,
-        "question": "example of question4",
-        "question-rus": "example of question4",
+        "category": "WISDOM",
+        "point": 2,
+        "question": "What do you do if you someone is depressed?",
+        "questionRus": "Что бы вы сказали кому-то, кто находятся в депрессии?",
         "answer_1": {
-            "text": "v1",
+            "text": "Tell them to stop",
             "isCorrect": false
         },
         "answer_2": {
-            "text": "v1",
-            "isCorrect": false
+            "text": "Talk to them and pray for them",
+            "isCorrect": true
         },
         "answer_3": {
-            "text": "v1",
+            "text": "People do not get depressed",
             "isCorrect": false
         },
         "answer_4": {
-            "text": "v1",
+            "text": "Ignore it",
             "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "WORLD",
+        "point": 0,
+        "question": "What is the Capital of the USA?",
+        "questionRus": "Назовите столицу США",
+        "answer_1": {
+            "text": "Washington DC",
+            "isCorrect": true
+        },
+        "answer_2": {
+            "text": "Orlando FL",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "San Francisco",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "New York",
+            "isCorrect": false
+        },
+        "alreadyPlay": false
+    },
+    {
+        "category": "MOVIES",
+        "point": 1,
+        "question": "What is the lowest-grossing film of all time?",
+        "questionRus": "Какой фильм имел самые низкие сборы?",
+        "answer_1": {
+            "text": "Back to the future",
+            "isCorrect": false
+        },
+        "answer_2": {
+            "text": "Epic movie",
+            "isCorrect": false
+        },
+        "answer_3": {
+            "text": "The Matrix",
+            "isCorrect": false
+        },
+        "answer_4": {
+            "text": "ZYZZYX Road (made 30 bucks)",
+            "isCorrect": true
         },
         "alreadyPlay": false
     }

@@ -13,43 +13,40 @@
     </ul>
 </div> -->
 
-
 <div class="color" fxLayout="column" fxLayoutAlign="center center">
-    
     <div class="plate">
-        <div class="context" fxLayout="row" fxLayoutAlign="center stretch">
-            <div class="title" fxLayout="row" fxLayoutAlign="center center">
-                <div class="container">
-                    <span>{{ data[0].category }}:&nbsp;</span>
-                    <span>{{ data[0].question }}</span>
-                </div>
-            </div>
+        <div class="title">
+            <span>"{{ data[this.currentQuestionNum].point }}"&nbsp;</span>
+            <!-- <span>{{ data[this.currentQuestionNum].category }}:&nbsp;</span> -->
+            <span>{{ data[this.currentQuestionNum].question }}</span>
+            <p class='translation'>{{ data[this.currentQuestionNum].questionRus }}</p>
         </div>
     </div>
 
     <div class="cont2" fxLayout="row wrap" fxLayoutAlign="center stretch">
         <div class="card-container">
             <div class="card">
-                <div class="front">{{document.doc}}</div>
-                <div class="back">User</div>
+                <!-- <div class="front">{{document.doc}}</div> -->
+                <div class="front">{{ data[this.currentQuestionNum].answer_1.text }}</div>
+                <div class="back" [ngClass]="{ errorBG: !data[this.currentQuestionNum].answer_1.isCorrect, correctBG: data[this.currentQuestionNum].answer_1.isCorrect }">{{ data[this.currentQuestionNum].answer_1.isCorrect }}</div>
             </div>
         </div>
         <div class="card-container">
             <div class="card">
-                <div class="front">Settings</div>
-                <div class="back">Settings</div>
+                <div class="front">{{ data[this.currentQuestionNum].answer_2.text }}</div>
+                <div class="back" [ngClass]="{ errorBG: !data[this.currentQuestionNum].answer_2.isCorrect, correctBG: data[this.currentQuestionNum].answer_2.isCorrect }">{{ data[this.currentQuestionNum].answer_2.isCorrect }}</div>
             </div>
         </div>
         <div class="card-container">
             <div class="card">
-                <div class="front">Code</div>
-                <div class="back">Code</div>
+                <div class="front">{{ data[this.currentQuestionNum].answer_3.text }}</div>
+                <div class="back" [ngClass]="{ errorBG: !data[this.currentQuestionNum].answer_3.isCorrect, correctBG: data[this.currentQuestionNum].answer_3.isCorrect }">{{ data[this.currentQuestionNum].answer_3.isCorrect }}</div>
             </div>
         </div>
         <div class="card-container">
             <div class="card">
-                <div class="front">Code</div>
-                <div class="back">Code</div>
+                <div class="front">{{ data[this.currentQuestionNum].answer_4.text }}</div>
+                <div class="back" [ngClass]="{ errorBG: !data[this.currentQuestionNum].answer_4.isCorrect, correctBG: data[this.currentQuestionNum].answer_4.isCorrect }">{{ data[this.currentQuestionNum].answer_4.isCorrect }}</div>
             </div>
         </div>
     </div>
@@ -57,4 +54,17 @@
     <!-- <div class="container color" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="1rem"> -->
     <!-- <textarea [(ngModel)]="document.doc" (keyup)="editDoc(textInput.value)" placeholder="textarea" #textInput></textarea> -->
     <!-- </div> -->
+</div>
+
+<div class="admin">
+    <div class="button-wrapper" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="1rem">
+        <!-- <button mat-raised-button (click)="editDoc('w1')">Answer 1</button>
+        <button mat-raised-button (click)="editDoc('w2')">Answer 2</button>
+        <button mat-raised-button (click)="editDoc('w3')">Answer 3</button>
+        <button mat-raised-button (click)="editDoc('w4')">Answer 4</button> -->
+        <button mat-raised-button (click)="previousQuestions()">Previous Questions</button>
+        <h2>{{this.currentQuestionNum}}</h2>
+        <input [ngModel]="this.currentQuestionNum" class="setQuestionNumber" (keydown.enter)="setQuestions(inputValue.value)" #inputValue>
+        <button mat-raised-button (click)="nexQuestions()">Nex Questions</button>
+    </div>
 </div>
